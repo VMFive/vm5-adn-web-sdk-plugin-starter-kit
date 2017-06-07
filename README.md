@@ -23,7 +23,7 @@ yup.
 
 這裡要先解釋一下, 其實一個 plugin 就是一個 [Vue component](https://vuejs.org/v2/guide/single-file-components.html), 而 SDK 本身也是 Vue component.
 
-而 Vue component Vue component 之間的溝通方式是 "props down, events up". 也就是說 SDK 會把參數用 props 傳給 plugin, 而 plugin 則必須使用 event 告知 SDK 版型的狀態變化.
+而 Vue component 和 Vue component 之間的溝通方式是 "props down, events up". 也就是說 SDK 會把參數用 props 傳給 plugin, 而 plugin 則必須使用 event 告知 SDK 版型的狀態變化.
 
 詳細的文件請見[傳送門](https://github.com/VMFive/vm5-adn-web-sdk-plugin-starter-kit/blob/master/API.md).
 
