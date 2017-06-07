@@ -43,3 +43,11 @@ npm run dev
 ```
 
 接著用你喜歡的文字編輯器修改 HelloPlugin.vue 吧! 用瀏覽器打開 http://localhost:9455 即可看到成果. 需要看 log 的話，打開 http://localhost:9455/?enable-log 即可. 順帶一提, 編輯 HelloPlugin.vue 的改動會即時反映在網頁上喔!
+
+starter kit 也包含幾個 demo, 也用以下指令跑起來:
+
+```
+npm run demo
+```
+
+用瀏覽器打開 http://localhost:9455/demos/ , 點選 demo1.html 或 demo2.html 即可看到.
