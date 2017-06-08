@@ -5,7 +5,10 @@ Plugin API documentation
 
 ### player
 
-影片播放器
+影片播放器. 支援以下 props:
+
+- onTap: callback function. 當影片(不包含音量鈕或重播鈕)被點擊時被呼叫.
+
 
 ### cta-button
 
@@ -117,6 +120,10 @@ DFP 廣告外框 (SafeFrame or friendly iframe) 的長寬。在 DFP 的用法會
 ### videoExitViewport
 
 當影片離開可視範圍時發送。SDK收到這個事件後會暫停播放影片。
+
+### toggleMute
+
+當想要開關聲音時發送。
 
 ### cta
 
