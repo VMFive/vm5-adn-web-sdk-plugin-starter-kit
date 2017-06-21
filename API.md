@@ -7,6 +7,7 @@ Plugin API documentation
 
 影片播放器. 支援以下 props:
 
+- loop: 如果有寫出來的話, 影片結束後會自動重複播放. 如果沒寫的話影片結束後就停止.
 - onTap: callback function. 當影片(不包含音量鈕或重播鈕)被點擊時被呼叫.
 
 
