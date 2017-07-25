@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = [{
-  entry: './demos/Demo1Plugin.vue',
+  entry: './demos/demo1-plugin.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -18,8 +18,15 @@ module.exports = [{
       },
     ],
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    })
+  ],
 }, {
-  entry: './demos/Demo2Plugin.vue',
+  entry: './demos/demo2-plugin.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -42,4 +49,11 @@ module.exports = [{
       },
     ],
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    })
+  ],
 }];

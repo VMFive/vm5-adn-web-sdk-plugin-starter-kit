@@ -8,7 +8,7 @@
       slot(name="cta-button")
 </template>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .content-box {
     position: relative;
   }
@@ -21,12 +21,6 @@
 
 <script>
   export default {
-
-    pluginConfig: {
-      adType: 'video-hello',
-      campaignType: 'video',
-      creativeType: 'web_top',
-    },
 
     props: {
       videoWidth: {
