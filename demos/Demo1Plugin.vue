@@ -5,7 +5,7 @@
     .kanban(:style="kanbanStyle", @click="onCTA")
 </template>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .layout {
     position: relative;
   }
@@ -21,12 +21,6 @@
 
 <script>
   export default {
-
-    pluginConfig: {
-      adType: 'demo1',
-      campaignType: 'video',
-      creativeType: 'web_native',
-    },
 
     props: {
       isPrepared: {

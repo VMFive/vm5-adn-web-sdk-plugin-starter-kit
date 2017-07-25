@@ -12,7 +12,7 @@
           slot(name="vm5-logo", size="27px", icon-size="24px", align-right, align-bottom, v-if="cardWidth>0 && cardHeight>0")
 </template>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .interstitial-layout {
     position: fixed;
     left: 0;
@@ -89,11 +89,6 @@
   import raf from 'raf';
 
   export default {
-    pluginConfig: {
-      adType: 'demo2',
-      campaignType: 'video',
-      creativeType: 'web_interstitial',
-    },
 
     props: {
       isPrepared: {
