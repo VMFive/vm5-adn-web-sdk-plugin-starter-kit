@@ -1,6 +1,6 @@
 {
   "name": "adn-web-sdk-plugin-starter-lit",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "VMFive ADN Web SDK plugin starter kit",
   "author": "cades kao <cades@vm5.com>",
   "scripts": {
